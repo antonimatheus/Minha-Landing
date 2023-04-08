@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1160px){
+
+    body {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        margin-left: 20px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    #pick {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    img {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #baixo {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    #img2 {
+        width: 100%;
+    }
+
+    
+}
