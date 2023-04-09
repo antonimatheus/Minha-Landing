@@ -21,12 +21,13 @@
         
     }
 
-    li {
-        width: 10vw;
+    a {
+        margin: 0 auto;
+        text-align: center;
     }
 
     input {
-        margin-left: 1vw;
+       margin-left: 40px;
     }
 
     main {
@@ -63,4 +64,6 @@
     #img2 {
         width: 100%;
     }
+
+
 }
