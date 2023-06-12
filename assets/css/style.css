@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600;700&display=swap');
+
+:root {
+    --cor0: #F9ECE6;
+    --cor1: #BFBCAE;
+    --cor2: #D9896C;
+    --cor3: #F2BBA7;
+    --cor4: #0D0D0D;
+    --font1: Arial, Helvetica, sans-serif;
+    --font2: 'Alkatra', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font1);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor0) ;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+#left {
+    width: 50vw;
+    padding: 10px;
+}
+
+#right {
+    width: 50vw;
+    padding: 10px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font2);
+    line-height: 60px;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .3)
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 20px 0px;
+    font-size: 1.4em;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+li {
+    margin: 0px 20px;
+    transition: .5s;
+}
+
+
+li:hover {
+    color: var(--cor2);
+    transform: scale(1.05);
+}
+
+a {
+    color: var(--cor4);
+    text-decoration: none;
+}
+
+#search {
+    background: none;
+    color: var(--cor2);
+    border: 1px solid var(--cor2);
+}
+
+input::placeholder {
+    color: var(--cor3);
+}
+
+input {
+    background-color: var(--cor2);
+    color: var(--cor0);
+    height: 45px;
+    margin: 0px 10px;
+    font-size: 15px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 18px;
+    transition: .5s;
+}
+
+input:hover {
+    background-color: #dca18c;
+}
+
+#pick-a-plan {
+    width: 150px;
+    height: 60px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#img-flower1 {
+    display: flex;
+    margin: 0 auto;
+    width: 35vw;
+    mix-blend-mode: multiply;
+}
+
+footer {
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor3);
+}
